@@ -41,20 +41,8 @@
 セミコロン不要
 インデントは意味を持たない（見た目用）
 プロジェクト構成（概要）
-コードをコピーする
 
-kotoba/
-├── docs/        # 言語仕様・設計思想
-├── examples/    # サンプルコード・最終作品
-├── src/
-│   ├── lexer/   # 字句解析
-│   ├── parser/  # 構文解析
-│   ├── compiler/# バイトコード生成
-│   ├── vm/      # 仮想マシン
-│   └── common/  # AST / Token / UTF-8 / Error
-└── tests/       # テスト
 ビルドと実行（予定）
-コードをコピーする
 Sh
 kotobac example.kb
 kotobavm example.kbc
