@@ -1,0 +1,8 @@
+だす "Kotoba test start"
+
+x = 1 + 2
+だす x
+
+もし x == 3:
+  だす "ok"
+おわり
