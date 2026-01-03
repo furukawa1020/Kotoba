@@ -29,7 +29,20 @@
 // Recommended pattern in Kotoba:
 //   かえす UI( 画面("..."), 入力("text","..."), ボタン("送る","send"), 遷移("talk") )
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <string>
+#include <vector>
+#include <unordered_map>
+#include <map>
+#include <memory>
+#include <optional>
+#include <stdexcept>
+#include <iomanip>
+#include <algorithm>
+#include <utility>
+#include <cctype>
 using namespace std;
 
 namespace kotoba {
