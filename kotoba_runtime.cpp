@@ -581,4 +581,14 @@ struct Eval {
   void exec_block(const vector<StmtPtr>& b){ for(auto& st:b) exec_stmt(st); }
 
   void load(const vector<StmtPtr>& prog){
-    for(auto& st: prog) if(st->kind==StmtKind::FuncDef) exec
+  for(auto& st : prog){
+    if(st->kind == StmtKind::FuncDef){
+      exec_stmt(st);
+    }
+  }
+  for(auto& st : prog){
+    if(st->kind != StmtKind::FuncDef){
+      exec_stmt(st);
+    }
+  }
+  }
